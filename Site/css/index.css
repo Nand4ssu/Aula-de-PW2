@@ -1,0 +1,10 @@
+
+/*o ponto indica que é o nome da classe */
+
+.container-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #1a1a6b9f;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Seta para o unicode do para o padrão BR -->
+    <meta charset="UTF-8" />
+    <title> Tela de Login </title>
+
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script src="./js/index.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container-principal">
+        <div class="formulario">
+            <form id="form-login">
+                <input type="text" placeholder="Usuário:" id="usuario" required="true" minlength="3" maxlength="15" />
+                <input type="password" placeholder="Senha:" id="senha" minlength="4" maxlength="15" required="true" />
+                <input type="submit" value="Logar" onclick="logar(); return false" />
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
