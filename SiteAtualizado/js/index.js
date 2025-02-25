@@ -20,7 +20,9 @@ function logar(event){
     }else{
       Swal.fire({
           title: 'Erro!",
-        text: ' Usuário 
-    }
+          text: ' Usuário ou senha incorretos.',
+          icon: 'error',
+          confirmButtonText: 'Tentar novamente!'
+    });
 
 }
