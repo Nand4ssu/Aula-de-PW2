@@ -18,7 +18,9 @@ function logar(event){
             }, 100);
         });
     }else{
-      
+      Swal.fire({
+          title: 'Erro!",
+        text: ' Usuário 
     }
 
 }
