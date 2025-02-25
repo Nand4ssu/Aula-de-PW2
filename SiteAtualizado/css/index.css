@@ -1,0 +1,50 @@
+/**/
+.container-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #395987;
+}
+/* A caixa de "fundo" do formulario*/
+.formulario{
+    background-color: #31456d;
+    padding: 20px;
+    /*O padding cria um espaçamento interno */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+     /*O box shadow adiciona uma sombra suave na "caixa"*/
+     width: 415px; 
+
+}
+form h3{
+    text-align: center;
+    margin-bottom: 20px;
+    /*Estilização do titulo*/
+    font-family: Verdana;
+    color: #ccc;
+    
+}
+/*Estilizando os campos de inputs(campos de texto) */
+input[type="text"], input[type="password"]{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+/*Estilizando o botão de "logar"*/
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    background-color: #557592;
+    color: white; /*cor do texto*/
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #99bce1;
+}
