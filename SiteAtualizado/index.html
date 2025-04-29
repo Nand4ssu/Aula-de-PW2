@@ -16,15 +16,16 @@
     <body>
         <div class="container-principal">
             <div class="formulario">
-                <form id="form-login" onsubmit="logar(event)">
+                <form id="form-login" action="./php/login.php" method="POST">
                     <h3>Login</h3>
 
                     <input type="text" placeholder="Usuário:" id="usuario" required="true" minlength="3" maxlength="15"/>
 
                     <input type="password" placeholder="Senha:" id="senha" required="true" minlength="4" maxlength="15"/>
                     
-                    <input type="submit" value="Entrar" onclick="logar();return false"/>
-
+                    <input type="submit" value="Entrar"> 
+                    <br>
+                    <a href="./html/cadastrar-usuario.html">Não possui conta? Cadastre-se! </a>
                 </form>
             </div>
         </div>
