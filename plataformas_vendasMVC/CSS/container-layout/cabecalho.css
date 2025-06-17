@@ -1,0 +1,18 @@
+/*container principal do cabeçalho, tudo que esta dentro dessa classe, vai obedecer 
+as regras*/
+
+.container-header{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background: linear-gradient(to right, rgb(54, 113, 202), rgb(34, 77, 172));
+}
+
+.logo-principal{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
