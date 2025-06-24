@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página inicial</title>
 
+<!--Reset de estilização do browser -->
+<link rel="stylesheet" type="text/css" href="./../../CSS/container-layout/reset.css">
+
 <!-- Estilização do cabeçalho -->
  <link rel="stylesheet" type="text/css" href="./../../CSS/container-layout/cabecalho.css">
+
+<!--Estilização do carrossel -->
  <link rel="stylesheet" type="text/css" href="./../../CSS/componentes/carrossel.css">
+
+<!--Estilização do menu -->
+<link rel="stylesheet" type="text/css" href="./../../CSS/componentes/menu.css">
+
+<!--CSS destinado as principais configurações de estilos do portal-->
+<link rel="stylesheet" type="text/css" href="./../../CSS/container-layout/principal.css">
+
 </head>
 <body>
     <!--Cabeçalho -->
